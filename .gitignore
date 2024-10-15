@@ -1,0 +1,19 @@
+# Environment
+devenv/
+environment.yaml
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+**/.vscode
+
+# Package
+dist/
+*.egg-info/

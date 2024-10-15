@@ -1,0 +1,29 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shepard-metzler-shape-renderer"
+version = "1.0.0"
+description = "A custom-developed image renderer for generating Shepard & Metzler 3D shapes."
+readme = "README.md"
+authors = [{ name = "Aleksandr Krylov", email = "aleksasha.krylov@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["renderer", "3D shape", "mental rotation"]
+dependencies = [
+    "numpy >= 1.26.4",
+    "matplotlib >= 3.8.4",
+    "moviepy >= 1.0.3"
+]
+requires-python = ">=3.12"
+
+[project.optional-dependencies]
+dev = ["black", "bumpver", "isort", "pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/aleksandr-krylov/shepard-metzler-shape-renderer"
