@@ -17,3 +17,8 @@ environment.yaml
 # Package
 dist/
 *.egg-info/
+
+
+!**/__pycache__/
+
+media/
